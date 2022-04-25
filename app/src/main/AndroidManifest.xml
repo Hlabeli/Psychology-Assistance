@@ -10,6 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PsyHelp">
         <activity
+            android:name=".SplashScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Tutorials"
+            android:exported="false" />
+        <activity
+            android:name=".Announcements"
+            android:exported="false" />
+        <activity
+            android:name=".Appointments"
+            android:exported="false" />
+        <activity
+            android:name=".BookingScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterScreen"
+            android:exported="false" />
+        <activity
+            android:name=".LoginScreen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
